@@ -9,7 +9,7 @@ source.include_exts = py,png,jpg,jpeg,mp3,json
 
 version = 1.0
 
-requirements = python3,kivy,requests,kivmob
+requirements = python3,kivy,requests
 
 orientation = portrait
 
@@ -29,3 +29,5 @@ android.allow_backup = True
 android.private_storage = True
 
 android.logcat_filters = *:S python:D
+
+android.accept_sdk_license = True
