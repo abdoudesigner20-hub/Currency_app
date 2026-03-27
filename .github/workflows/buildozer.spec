@@ -29,3 +29,5 @@ android.allow_backup = True
 android.private_storage = True
 
 android.logcat_filters = *:S python:D
+
+android.accept_sdk_license = True
